@@ -1,0 +1,799 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Periodic Table</title>
+<style type="text/css">
+.head {
+color: grey;
+border: 2px dashed black;
+}
+.conjl {
+text-align: center;
+float: left;
+width: 33.333%;
+}
+.conjr {
+text-align: center;
+float: right;
+width: 33.333%;
+}
+.conjc {
+text-align: center;
+display: inline-block;
+width: 33.333%;
+}
+.atomic {
+font-size: 10px;
+}
+.symbol {
+font-size: 14px;
+}
+.name {
+font-size: 11px;
+}
+.lanth {
+background-color: greenyellow;
+}
+.act {
+background-color: hotpink;
+}
+.metaloid {
+background-color: lightgrey;
+}
+.trans {
+background-color: skyblue;
+}
+.hydro {
+background-color: goldenrod;
+}
+.alkali {
+background-color: gold;
+}
+.earth {
+background-color: orange;
+}
+.halogen {
+background-color: lightgreen;
+}
+.noble {
+background-color: violet;
+}
+.non {
+background-color: olive;
+}
+.other {
+background-color: pink;
+}
+
+</style>
+</head>
+<body>
+<table style="text-align:center">
+<caption>Periodic Table</caption>
+<thead>
+<tr>
+<th class="head">
+<span>1</span><br>
+<span>IA</span><br>
+<span>1A</span>
+</th>
+<td colspan="16"></td>
+<th class="head">
+<span>18</span><br>
+<span>VIIIA</span><br>
+<span>8A</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="hydro">
+<span class="atomic">1</span><br>
+<span class="symbol">H</span><br>
+<span class="name">Hydrogen</span><br>
+</td>
+<th class="head">
+<span>2</span><br>
+<span>IIA</span><br>
+<span>2A</span>
+</th>
+<td colspan="10"></td>
+<th class="head">
+<span>13</span><br>
+<span>IIIA</span><br>
+<span>3A</span>
+</th>
+<th class="head">
+<span>14</span><br>
+<span>IVA</span><br>
+<span>4A</span>
+</th>
+<th class="head">
+<span>15</span><br>
+<span>VA</span><br>
+<span>5A</span>
+</th>
+<th class="head">
+<span>16</span><br>
+<span>VIA</span><br>
+<span>6A</span>
+</th>
+<th class="head">
+<span>17</span><br>
+<span>VIIA</span><br>
+<span>7A</span>
+</th>
+<td class="noble">
+<span class="atomic">2</span><br>
+<span class="symbol">He</span><br>
+<span class="name">Helium</span><br>
+</td>
+</tr>
+<tr>
+<td class="alkali">
+<span class="atomic">3</span><br>
+<span class="symbol">Li</span><br>
+<span class="name">Lithium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">4</span><br>
+<span class="symbol">Be</span><br>
+<span class="name">Beryllium</span><br>
+</td>
+<td colspan="10"></td>
+<td class="metaloid">
+<span class="atomic">5</span><br>
+<span class="symbol">B</span><br>
+<span class="name">Boron</span><br>
+
+</td>
+<td class="non">
+<span class="atomic">6</span><br>
+<span class="symbol">C</span><br>
+<span class="name">Carbon</span><br>
+</td>
+<td class="non">
+<span class="atomic">7</span><br>
+<span class="symbol">N</span><br>
+<span class="name">Nitrogen</span><br>
+</td>
+<td class="non">
+<span class="atomic">8</span><br>
+<span class="symbol">O</span><br>
+<span class="name">Oxygen</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">9</span><br>
+<span class="symbol">F</span><br>
+<span class="name">Fluorine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">10</span><br>
+<span class="symbol">Ne</span><br>
+<span class="name">Neon</span><br>
+</td>
+<tr>
+<td class="alkali">
+<span class="atomic">11</span><br>
+<span class="symbol">Na</span><br>
+<span class="name">Sodium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">12</span><br>
+<span class="symbol">Mg</span><br>
+<span class="name">Magnesium</span><br>
+</td>
+<th class="head">
+<span>3</span><br>
+<span>IIIB</span><br>
+<span>3B</span>
+</th>
+<th class="head">
+<span>4</span><br>
+<span>IVB</span><br>
+<span>4B</span>
+</th>
+<th class="head">
+<span>5</span><br>
+<span>VB</span><br>
+<span>5B</span>
+</th>
+<th class="head">
+<span>6</span><br>
+<span>6B</span><br>
+<span>6B</span>
+</th>
+<th class="head">
+<span>7</span><br>
+<span>VIIB</span><br>
+<span>7B</span>
+</th>
+<th class="head" colspan="3">
+<span>
+<div class="conjl">8</div>
+<div class="conjc">9</div>
+<div class="conjr">10</div>
+</span>
+<br>
+<span>------ VIII ------</span><br>
+<span>-------- 8 --------</span>
+</th>
+<th class="head">
+<span>11</span><br>
+<span>IB</span><br>
+<span>1B</span></th>
+<th class="head">
+<span>12</span><br>
+<span>IIB</span><br>
+<span>2B</span>
+</th>
+<td class="other">
+<span class="atomic">13</span><br>
+<span class="symbol">Al</span><br>
+<span class="name">Aluminum</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">14</span><br>
+<span class="symbol">Si</span><br>
+<span class="name">Silicon</span><br>
+</td>
+<td class="non">
+<span class="atomic">15</span><br>
+<span class="symbol">P</span><br>
+<span class="name">Phosphorus</span><br>
+</td>
+<td class="non">
+<span class="atomic">16</span><br>
+<span class="symbol">S</span><br>
+<span class="name">Sulphur</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">17</span><br>
+<span class="symbol">Cl</span><br>
+<span class="name">Chlorine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">18</span><br>
+<span class="symbol">Ar</span><br>
+<span class="name">Argon</span><br>
+</td>
+<tr>
+<tr>
+<td class="alkali">
+<span class="atomic">19</span><br>
+<span class="symbol">K</span><br>
+<span class="name">Potassium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">20</span><br>
+<span class="symbol">Ca</span><br>
+<span class="name">Calcium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">21</span><br>
+<span class="symbol">Sc</span><br>
+<span class="name">Scandium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">22</span><br>
+<span class="symbol">Ti</span><br>
+<span class="name">Titanium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">23</span><br>
+<span class="symbol">V</span><br>
+<span class="name">Vanadium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">24</span><br>
+<span class="symbol">Cr</span><br>
+<span class="name">Chromium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">25</span><br>
+<span class="symbol">Mn</span><br>
+<span class="name">Manganese</span><br>
+</td>
+<td class="trans">
+<span class="atomic">26</span><br>
+<span class="symbol">Fe</span><br>
+<span class="name">Iron</span><br>
+</td>
+<td class="trans">
+<span class="atomic">27</span><br>
+<span class="symbol">Co</span><br>
+<span class="name">Cobal</span><br>
+</td>
+<td class="trans">
+<span class="atomic">28</span><br>
+<span class="symbol">Ni</span><br>
+<span class="name">Nickel</span><br>
+</td>
+<td class="trans">
+<span class="atomic">29</span><br>
+<span class="symbol">Cu</span><br>
+<span class="name">Copper</span><br>
+</td>
+<td class="trans">
+<span class="atomic">30</span><br>
+<span class="symbol">Zn</span><br>
+<span class="name">Zinc</span><br>
+</td>
+<td class="other">
+<span class="atomic">31</span><br>
+<span class="symbol">Ga</span><br>
+<span class="name">Gallium</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">32</span><br>
+<span class="symbol">Ge</span><br>
+<span class="name">Germanium</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">33</span><br>
+<span class="symbol">As</span><br>
+<span class="name">Arsenic</span><br>
+</td>
+<td class="non">
+<span class="atomic">34</span><br>
+<span class="symbol">Se</span><br>
+<span class="name">Selenium</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">35</span><br>
+<span class="symbol">Br</span><br>
+<span class="name">Bromine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">36</span><br>
+<span class="symbol">Kr</span><br>
+<span class="name">Krypton</span><br>
+</td>
+</tr>
+<tr>
+<tr>
+<td class="alkali">
+<span class="atomic">37</span><br>
+<span class="symbol">Rb</span><br>
+<span class="name">Rubidium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">38</span><br>
+<span class="symbol">Sr</span><br>
+<span class="name">Strontium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">39</span><br>
+<span class="symbol">Y</span><br>
+<span class="name">Yttrium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">40</span><br>
+<span class="symbol">Zr</span><br>
+<span class="name">Zirconium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">41</span><br>
+<span class="symbol">Nb</span><br>
+<span class="name">Niobium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">42</span><br>
+<span class="symbol">Mo</span><br>
+<span class="name">Molybdenum</span><br>
+</td>
+<td class="trans">
+<span class="atomic">43</span><br>
+<span class="symbol">Tc</span><br>
+<span class="name">Technetium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">44</span><br>
+<span class="symbol">Ru</span><br>
+<span class="name">Ruthenium</span><br>
+
+</td>
+<td class="trans">
+<span class="atomic">45</span><br>
+<span class="symbol">Rh</span><br>
+<span class="name">Rhodium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">46</span><br>
+<span class="symbol">Pd</span><br>
+<span class="name">Palladium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">47</span><br>
+<span class="symbol">Ag</span><br>
+<span class="name">Silver</span><br>
+</td>
+<td class="trans">
+<span class="atomic">48</span><br>
+<span class="symbol">Cd</span><br>
+<span class="name">Cadmium</span><br>
+</td>
+<td class="other">
+<span class="atomic">49</span><br>
+<span class="symbol">In</span><br>
+<span class="name">Indium</span><br>
+</td>
+<td class="other">
+<span class="atomic">50</span><br>
+<span class="symbol">Sn</span><br>
+<span class="name">Tin</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">51</span><br>
+<span class="symbol">Sb</span><br>
+<span class="name">Antimony</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">52</span><br>
+<span class="symbol">Te</span><br>
+<span class="name">Tellurium</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">53</span><br>
+<span class="symbol">I</span><br>
+<span class="name">Iodine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">54</span><br>
+<span class="symbol">Xe</span><br>
+<span class="name">Xenon</span><br>
+</td>
+</tr>
+<tr>
+<tr>
+<td class="alkali">
+<span class="atomic">55</span><br>
+<span class="symbol">Cs</span><br>
+<span class="name">Cesium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">56</span><br>
+<span class="symbol">Ba</span><br>
+<span class="name">Barium</span><br>
+</td>
+<td class="lanth">
+lanthanides
+</td>
+<td class="trans">
+<span class="atomic">72</span><br>
+<span class="symbol">Hf</span><br>
+<span class="name">Hafnium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">73</span><br>
+<span class="symbol">Ta</span><br>
+<span class="name">Tantalum</span><br>
+</td>
+<td class="trans">
+<span class="atomic">74</span><br>
+<span class="symbol">W</span><br>
+<span class="name">Tungsten</span><br>
+</td>
+<td class="trans">
+<span class="atomic">75</span><br>
+<span class="symbol">Re</span><br>
+<span class="name">Rhenium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">76</span><br>
+<span class="symbol">Os</span><br>
+<span class="name">Osmium</span><br>
+
+</td>
+<td class="trans">
+<span class="atomic">77</span><br>
+<span class="symbol">Ir</span><br>
+<span class="name">Iridium</span><br>
+
+</td>
+<td class="trans">
+<span class="atomic">78</span><br>
+<span class="symbol">Pt</span><br>
+<span class="name">Platinum</span><br>
+
+</td>
+<td class="trans">
+<span class="atomic">79</span><br>
+<span class="symbol">Au</span><br>
+<span class="name">Gold</span><br>
+</td>
+<td class="trans">
+<span class="atomic">80</span><br>
+<span class="symbol">Hg</span><br>
+<span class="name">Mercury</span><br>
+</td>
+<td class="other">
+<span class="atomic">81</span><br>
+<span class="symbol">Tl</span><br>
+<span class="name">Thallium</span><br>
+</td>
+<td class="other">
+<span class="atomic">82</span><br>
+<span class="symbol">Pb</span><br>
+<span class="name">Lead</span><br>
+</td>
+<td class="other">
+<span class="atomic">83</span><br>
+<span class="symbol">Bi</span><br>
+<span class="name">Bismuth</span><br>
+</td>
+<td class="metaloid">
+<span class="atomic">84</span><br>
+<span class="symbol">Po</span><br>
+<span class="name">Polonium</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">85</span><br>
+<span class="symbol">At</span><br>
+<span class="name">Astatine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">86</span><br>
+<span class="symbol">Rn</span><br>
+<span class="name">Radon</span><br>
+</td>
+</tr>
+<tr>
+<td class="alkali">
+<span class="atomic">87</span><br>
+<span class="symbol">Fr</span><br>
+<span class="name">Francium</span><br>
+</td>
+<td class="earth">
+<span class="atomic">88</span><br>
+<span class="symbol">Ra</span><br>
+<span class="name">Radium</span><br>
+</td>
+<td class="act">
+actinides
+</td>
+<td class="trans">
+<span class="atomic">104</span><br>
+<span class="symbol">Rf</span><br>
+<span class="name">Rutherfordium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">105</span><br>
+<span class="symbol">Db</span><br>
+<span class="name">Dubnium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">106</span><br>
+<span class="symbol">Sg</span><br>
+<span class="name">Seaborgium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">107</span><br>
+<span class="symbol">Bh</span><br>
+<span class="name">Bohium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">108</span><br>
+<span class="symbol">Hs</span><br>
+<span class="name">Hassium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">109</span><br>
+<span class="symbol">Mt</span><br>
+<span class="name">Meitnerium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">110</span><br>
+<span class="symbol">Ds</span><br>
+<span class="name">Darmstadtium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">111</span><br>
+<span class="symbol">Rg</span><br>
+<span class="name">Roentgenium</span><br>
+</td>
+<td class="trans">
+<span class="atomic">112</span><br>
+<span class="symbol">Cn</span><br>
+<span class="name">Copernicium</span><br>
+</td>
+<td class="other">
+<span class="atomic">113</span><br>
+<span class="symbol">Nh</span><br>
+<span class="name">Nihonium</span><br>
+</td>
+<td class="other">
+<span class="atomic">114</span><br>
+<span class="symbol">Fl</span><br>
+<span class="name">Flerovium</span><br>
+</td>
+<td class="other">
+<span class="atomic">115</span><br>
+<span class="symbol">Mc</span><br>
+<span class="name">Moscovium</span><br>
+</td>
+<td class="other">
+<span class="atomic">116</span><br>
+<span class="symbol">Lv</span><br>
+<span class="name">Livermorium</span><br>
+</td>
+<td class="halogen">
+<span class="atomic">117</span><br>
+<span class="symbol">Ts</span><br>
+<span class="name">Tennessine</span><br>
+</td>
+<td class="noble">
+<span class="atomic">118</span><br>
+<span class="symbol">Og</span><br>
+<span class="name">Oganesson</span><br>
+</td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<td colspan="2">
+</td>
+<td class="lanth">
+<span class="atomic">57</span><br>
+<span class="symbol">La</span><br>
+<span class="name">Lanthanum</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">58</span><br>
+<span class="symbol">Ce</span><br>
+<span class="name">Cerium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">59</span><br>
+<span class="symbol">Pr</span><br>
+<span class="name">Praseodymium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">60</span><br>
+<span class="symbol">Nd</span><br>
+<span class="name">Neodymium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">61</span><br>
+<span class="symbol">Pm</span><br>
+<span class="name">Promethium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">62</span><br>
+<span class="symbol">Sm</span><br>
+<span class="name">Samarium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">63</span><br>
+<span class="symbol">Eu</span><br>
+<span class="name">Europium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">64</span><br>
+<span class="symbol">Gd</span><br>
+<span class="name">Gadolinium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">65</span><br>
+<span class="symbol">Tb</span><br>
+<span class="name">Terbium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">66</span><br>
+<span class="symbol">Dy</span><br>
+<span class="name">Dysprosium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">67</span><br>
+<span class="symbol">Ho</span><br>
+<span class="name">Holmium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">68</span><br>
+<span class="symbol">Er</span><br>
+<span class="name">Erbium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">69</span><br>
+<span class="symbol">Tm</span><br>
+<span class="name">Thulium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">70</span><br>
+<span class="symbol">Yb</span><br>
+<span class="name">Ytterbium</span><br>
+</td>
+<td class="lanth">
+<span class="atomic">71</span><br>
+<span class="symbol">Lu</span><br>
+<span class="name">Lutenium</span><br>
+</td>
+<td>
+</tr>
+</tr>
+<tr>
+<td colspan="2"">
+</td>
+<td class="act">
+<span class="atomic">89</span><br>
+<span class="symbol">Ac</span><br>
+<span class="name">Actinium</span><br>
+</td>
+<td class="act">
+<span class="atomic">90</span><br>
+<span class="symbol">Th</span><br>
+<span class="name">Thorium</span><br>
+</td>
+<td class="act">
+<span class="atomic">91</span><br>
+<span class="symbol">Pa</span><br>
+<span class="name">Protactinium</span><br>
+</td>
+<td class="act">
+<span class="atomic">92</span><br>
+<span class="symbol">U</span><br>
+<span class="name">Uranium</span><br>
+</td>
+<td class="act">
+<span class="atomic">93</span><br>
+<span class="symbol">Np</span><br>
+<span class="name">Neptunium</span><br>
+</td>
+<td class="act">
+<span class="atomic">94</span><br>
+<span class="symbol">Pu</span><br>
+<span class="name">Plutonium</span><br>
+</td>
+<td class="act">
+<span class="atomic">95</span><br>
+<span class="symbol">Am</span><br>
+<span class="name">Americium</span><br>
+</td>
+<td class="act">
+<span class="atomic">96</span><br>
+<span class="symbol">Cm</span><br>
+<span class="name">Curium</span><br>
+</td>
+<td class="act">
+<span class="atomic">97</span><br>
+<span class="symbol">Bk</span><br>
+<span class="name">Berkelium</span><br>
+</td>
+<td class="act">
+<span class="atomic">98</span><br>
+<span class="symbol">Cf</span><br>
+<span class="name">Californium</span><br>
+</td>
+<td class="act">
+<span class="atomic">99</span><br>
+<span class="symbol">Es</span><br>
+<span class="name">Einsteinium</span><br>
+</td>
+<td class="act">
+<span class="atomic">100</span><br>
+<span class="symbol">Fm</span><br>
+<span class="name">Fermium</span><br>
+</td>
+<td class="act">
+<span class="atomic">101</span><br>
+<span class="symbol">Md</span><br>
+<span class="name">Mendelevium</span><br>
+</td>
+<td class="act">
+<span class="atomic">102</span><br>
+<span class="symbol">No</span><br>
+<span class="name">Nobelium</span><br>
+</td>
+<td class="act">
+<span class="atomic">103</span><br>
+<span class="symbol">Lr</span><br>
+<span class="name">Lawrencium</span><br>
+</td>
+<td>
+</td>
+</tr>
+</tfoot>
+</table>
+</body>
+</html>
